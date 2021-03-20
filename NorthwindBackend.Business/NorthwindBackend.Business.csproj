@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NorthwindBackend.DataAccess\NorthwindBackend.DataAccess.csproj" />
+    <ProjectReference Include="..\NorthwindBackend.Entities\NorthwindBackend.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
